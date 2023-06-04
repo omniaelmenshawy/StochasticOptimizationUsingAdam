@@ -2,8 +2,8 @@
 
 This project is based on the reproduction of the experiments conducted in the papers "Adam: A Method for Stochastic Optimization" (arXiv:1412.6980) and "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification" (arXiv:2012.11212).
 
-# Dependencies
-## Requirements
+## Dependencies
+### Requirements
 
 The code uses the PyTorch library, among others. You will need to have the following libraries installed in your Python environment:
 
@@ -20,7 +20,7 @@ pip install matplotlib
 
 ```
 
-## Files
+### Files
 
 For the code to run successfully, the following model files should be present:
 
