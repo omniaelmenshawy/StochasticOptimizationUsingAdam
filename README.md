@@ -21,8 +21,10 @@ pip install torch torchvision matplotlib
 
 For the code to run successfully, the following model files should be present:
 
-- improved_pretrained_model.pth
-- improved_model.pth
+- improved_pretrained_model.pth # use any pr-etrained model and make sure to give it the name as specified here.
+- improved_model.pth # you can use the provided custom model in the files section.
+
+Please make sure to update the file paths as it is stored in your device.
 
 ## Steps to Run the Project
 
