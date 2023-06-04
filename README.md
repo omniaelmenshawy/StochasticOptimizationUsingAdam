@@ -1,4 +1,4 @@
-# Project: Evaluating the Performance of the Adam Optimizer and Implementing a DFST Attack
+# Project: Evaluating the Performance of the Adam Optimizer:
 
 This project is based on the reproduction of the experiments conducted in the papers "Adam: A Method for Stochastic Optimization" (arXiv:1412.6980) and "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification" (arXiv:2012.11212).
 
@@ -71,7 +71,7 @@ epsilons = [1e-6, 1e-4]
 <img width="679" alt="Screen Shot 2023-06-04 at 16 40 32" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/d469b41c-b68f-40b2-89b1-4c8ce4d43474">
 
 
-### Task 2: Implementing a Deep Feature Space Trojan (DFST) Attack
+### Task 2: Implementing a Deep Feature Space Trojan (DFST) Attack that is based on Adam optimization:
 
 This task is inspired by the attack strategies in the "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification" paper.
 
