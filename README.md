@@ -45,7 +45,9 @@ beta1_values = [0.9, 0.99]
 beta2_values = [0.999, 0.9999]
 epsilons = [1e-6, 1e-4]
 ```
-- Here is a sample of the sensetivity analysis results: 
+3. After making sure that all libraries are installed, task one can be executed with 0 errors.
+
+#### The results of task2 expected are as follows:
 
 ###### 1) model1: Logistic Regression with weight_decay=0.0001, beta1=0.9, beta2=0.999, epsilon=0.0001
     - Epoch 10/10, Train Loss: 0.2511, Train Acc: 93.09%, Test Loss: 0.2611, Test Acc: 92.63%
@@ -71,7 +73,7 @@ epsilons = [1e-6, 1e-4]
 
 <img width="679" alt="Screen Shot 2023-06-04 at 16 40 06" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/36efe691-ce37-4313-81a0-9920d28aee0a">
 
-##### 4) Overall result: 
+##### 4) Task1 Overall result: 
 
 <img width="679" alt="Screen Shot 2023-06-04 at 16 40 32" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/d469b41c-b68f-40b2-89b1-4c8ce4d43474">
 
@@ -90,7 +92,7 @@ This task is inspired by the attack strategies in the "Deep Feature Space Trojan
 
 5. Finally, evaluate the attack by running your evaluation code. 
 
-The results expected are as follows:
+#### The results of task2 expected are as follows:
 
 #### Model1 Accuracy before Attack: 73.96%
 #### Model1 Accuracy under attack: 62.34%
