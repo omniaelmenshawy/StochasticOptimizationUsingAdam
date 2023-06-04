@@ -2,6 +2,7 @@
 
 This project is based on the reproduction of the experiments conducted in the papers "Adam: A Method for Stochastic Optimization" (arXiv:1412.6980) and "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification" (arXiv:2012.11212).
 
+# Dependencies
 ## Requirements
 
 The code uses the PyTorch library, among others. You will need to have the following libraries installed in your Python environment:
@@ -14,14 +15,16 @@ matplotlib
 
 You can install the above libraries using pip:
 ```bash
-pip install torch torchvision matplotlib
+pip install torch torchvision 
+pip install matplotlib
+
 ```
 
 ## Files
 
 For the code to run successfully, the following model files should be present:
 
-- improved_pretrained_model.pth # use any pr-etrained model and make sure to give it the name as specified here.
+- improved_pretrained_model.pth # use any pr-etrained model and make sure to give it the name as specified here, we used Resnet30 model.
 - improved_model.pth # you can use the provided custom model in the files section.
 
 Please make sure to update the file paths as it is stored in your device.
