@@ -40,6 +40,34 @@ beta1_values = [0.9, 0.99]
 beta2_values = [0.999, 0.9999]
 epsilons = [1e-6, 1e-4]
 ```
+- Here is a sample of the sensetivity analysis results: 
+
+1) model1: Logistic Regression with weight_decay=0.0001, beta1=0.9, beta2=0.999, epsilon=0.0001
+    Epoch 10/10, Train Loss: 0.2511, Train Acc: 93.09%, Test Loss: 0.2611, Test Acc: 92.63%
+    9263 correct and 737 incorrect predictions.
+<img width="680" alt="Screen Shot 2023-06-04 at 16 36 38" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/33b8916f-af03-4435-924b-72279ed024ad">
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 39 23" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/62f04ea4-c2e5-47c1-9dc1-33c83cf20b60">
+
+
+2) model2: Multi Layer Network with weight_decay=0.0001, beta1=0.9, beta2=0.999, epsilon=0.0001
+    Epoch 10/10, Train Loss: 0.0656, Train Acc: 97.87%, Test Loss: 0.0644, Test Acc: 98.13%
+    Sensitivity Analysis: 9813 correct and 187 incorrect predictions.
+<img width="680" alt="Screen Shot 2023-06-04 at 16 37 47" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/33b41c24-b3e3-47d0-bfba-c2d866c5181a">
+<img width="679" alt="Screen Shot 2023-06-04 at 16 39 38" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/23d27002-157b-4fe8-85e6-524aae1d6caa">
+
+
+3) model3: ConvNet with weight_decay=0.0001, beta1=0.9, beta2=0.999, epsilon=0.0001
+    9919 correct and 81 incorrect predictions.
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 38 48" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/79596251-0efd-45c1-a2b2-5732ba105fef">
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 40 06" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/36efe691-ce37-4313-81a0-9920d28aee0a">
+
+4) Overall result: 
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 40 32" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/d469b41c-b68f-40b2-89b1-4c8ce4d43474">
+
 
 ### Task 2: Implementing a Deep Feature Space Trojan (DFST) Attack
 
@@ -61,6 +89,10 @@ The results expected are as follows:
 #### Model1 Accuracy under attack: 62.34%
 #### Model2 Accuracy before Attack: 84.62%
 #### Model2 Accuracy under attack: 69.53%  
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 41 01" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/b399f670-08c7-4e83-9dc3-cd557c55577b">
+
+<img width="679" alt="Screen Shot 2023-06-04 at 16 41 21" src="https://github.com/omniaelmenshawy/StochasticOptimizationUsingAdam/assets/77496383/67823938-8194-4829-9856-078a0cf8ee7e">
 
 Please note that you may not get exactly the same results due to randomness in training processes. This is a common situation in machine learning experiments.
 
