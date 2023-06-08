@@ -24,7 +24,7 @@ pip install matplotlib
 
 For the code to run successfully, the following model files should be present:
 
-- improved_pretrained_model.pth # use any pr-etrained model and make sure to give it the name as specified here, we used Resnet30 model.
+- improved_pretrained_model.pth # use any pr-etrained model and make sure to give it the name as specified here, we used Resnet50 model.
 - improved_model.pth # you can use the provided custom model in the files section.
 
 Please make sure to update the file paths as it is stored in your device.
