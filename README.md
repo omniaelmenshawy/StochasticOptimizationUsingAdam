@@ -1,6 +1,6 @@
 # Project: Evaluating the Performance of the Adam Optimizer:
 
-This project is based on the reproduction of the experiments conducted in the papers "Adam: A Method for Stochastic Optimization" (arXiv:1412.6980) and "Deep Feature Space Trojan Attack of Neural Networks by Controlled Detoxification" (arXiv:2012.11212).
+This project is based on the reproduction of the experiments conducted in the papers "Adam: A Method for Stochastic Optimization" (arXiv:1412.6980)
 
 ## Dependencies
 ### Requirements
